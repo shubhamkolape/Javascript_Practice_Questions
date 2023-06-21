@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculation</title>
+</head>
+<body>
+  <h1>Checking Age</h1>
+
+  <p id="js"></p>
+
+  <script>
+    let value = document.getElementById("js");
+    let age = prompt('please enter your age');
+
+    if( age >= 18){
+      alert('You are old enough to drive');
+      alert("Thank You");
+    }
+    else{
+      let yearstowait = 18 - age ;
+      alert(`You are not old enough to drive, please wait for ${yearstowait} years`)
+      alert("Thank You");
+    }
+    
+  </script>
+</body>
+</html>
+
+
+
+
+
+<!-- let age = prompt("Enter your age:");
+
+if (age >= 18) {
+  console.log("You are old enough to drive.");
+}
+else{
+    let YearsToWait = 18 - age;
+    console.log(" You have to wait", YearsToWait, "years");
+}    -->

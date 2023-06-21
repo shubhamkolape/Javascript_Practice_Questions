@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <script>
+            let Num = prompt("Enter a number");;
+
+if (Num == 1) {
+    alert(`nai prime number`);
+}
+else if (Num % 2 === 0){
+        alert(`nai prime number`);
+}
+else{
+    for(i = 3; i <= Math.sqrt(Num); i += 2){
+        if(Num % i === 0){
+           alert(`nai prime number`);
+        }
+        else{
+            alert(` prime number aahe`);
+        }
+    }
+
+}
+    </script>
+</body>
+</html>
