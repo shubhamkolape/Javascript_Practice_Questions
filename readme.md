@@ -12,8 +12,7 @@ In this repository, you will find 30 JavaScript questions that I have solved. Ea
 3. Functions and scope
 4. Arrays and objects
 5. DOM manipulation
-6. Asynchronous programming
-7. Error handling And more!
+
 
 
 Feel free to explore the questions and solutions provided here. 
@@ -21,6 +20,13 @@ Feel free to explore the questions and solutions provided here.
 
 
 Each question file contains the prompt or description of the problem, while the corresponding solution file provides an implementation of the solution. You can find the questions in the questions/ directory and their respective solutions in the solutions/ directory.
+
+
+## DOM Assignments
+
+The `DOM Assignments` section includes 9 assignments that focus on practicing DOM manipulation using JavaScript. Each assignment is organized in its own folder, containing the necessary HTML, CSS, and JavaScript files. Within each assignment folder, you will find a detailed README file that explains the requirements and my approach to solving the task. By completing these assignments, I aimed to gain hands-on experience in working with the DOM, manipulating elements, handling events, and creating dynamic web pages.
+
+
 
 Usage
 To use this repository, you can follow these steps:
@@ -33,6 +39,9 @@ Implement your solution in the same file or create a new file for your solution.
 Test your solution and compare it with the provided solution (located in the solutions/ directory).
 Repeat the process for other questions.
 Feel free to modify the code and experiment with different approaches to solve the questions. Remember, the goal is to learn and improve your JavaScript skills!
+
+
+
 
 Contribution
 If you have any additional JavaScript questions that you would like to add to this repository or if you find any issues with the existing questions or solutions, feel free to submit a pull request or open an issue. Your contributions are highly appreciated!

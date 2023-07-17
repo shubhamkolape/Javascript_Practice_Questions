@@ -10,7 +10,7 @@ shoppingCart.push('Sugar');   //adding sugar in end of array
 console.log(shoppingCart);
 
 
-shoppingCart.splice(4,1);   // remove the honey from array
+shoppingCart.splice(4,1);   // remove  the honey from array
 
 
 console.log(shoppingCart);

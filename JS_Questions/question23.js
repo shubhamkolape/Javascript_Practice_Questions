@@ -3,6 +3,7 @@ let Num = 19;
 if (Num == 1) {
     console.log(`nai prime number`);
 }
+
 else if (Num % 2 === 0){
     console.log(`nai prime`);
 }
